@@ -107,6 +107,23 @@ img {
     align-items: center;
 }
 
+.btn-1 {
+    padding: 10px 25px;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--skin-color);
+    background-color: transparent;
+    line-height: 1.5;
+    cursor: pointer;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+.btn-1:after {
+    border-radius: 30px;
+}
+
 /* ==============
     Header 
    ==============*/
